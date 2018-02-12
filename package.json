@@ -1,0 +1,31 @@
+{
+	"name": "as-data-uri-cli",
+	"description": "Command line tool to encode data into a data URI.",
+	"version": "0.1.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"bin.js"
+	],
+	"bin": {
+		"as-data-uri": "./bin.js"
+	},
+	"keywords": [
+		"data uri",
+		"cli",
+		"encode",
+		"convert",
+		"inline",
+		"base64"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/as-data-uri-cli",
+	"repository": "derhuerst/as-data-uri-cli",
+	"bugs": "https://github.com/derhuerst/as-data-uri-cli/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+	}
+}
